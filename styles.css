@@ -1,0 +1,27 @@
+.ode-SimpleMockFormPhonePortrait {
+    background: url(https://builder.niotron.com/static/images/samsung_galaxy_note_5_portrait.png) !important;
+    padding: 60px 15px 53px 15px !important;
+	background-repeat: no-repeat !important;
+    background-position: right top !important;
+    background-size: 100% 100% !important;
+	margin-top: 15px;
+}
+
+.ode-SimpleMockFormNavigationBarPortrait {
+    display: none !important;
+}
+
+.ode-SimpleMockForm {
+    width: 330px !important;
+}
+
+.ode-SimpleMockFormPhonePortrait .ode-SimpleMockForm, .ode-SimpleMockFormPhonePortraitTablet .ode-SimpleMockForm, .ode-SimpleMockFormPhonePortraitMonitor .ode-SimpleMockForm {
+    flex-direction: column !important;
+    width: 330px !important;
+    height: 538px !important;
+}
+
+/*ListBox is hidded to mintain CSS of custom mockup*/
+.gwt-ListBox {
+    display: none;
+}

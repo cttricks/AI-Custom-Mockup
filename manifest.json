@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "AI Custom Mockup",
+  "description": "This extension sets Samsung Galaxy Note 5 as default mockup of MIT Appinventor Creator. Made with ❤️ by Ct tricks",
+  "version": "1.0.0",
+  "icons": { 
+	  "128": "icon_128.png"
+  },
+  "browser_action": {
+	  "default_icon": "icon.png"
+  },
+  "content_scripts" : [
+	  {
+		  "matches": ["<all_urls>"],
+		  "js" : ["script.js"],
+		  "css" : ["styles.css"]
+	  }
+  ]
+}
